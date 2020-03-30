@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1565023998836-962ff9d5f9be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+button {
+    appearance: none;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+/* button:hover {
+    color: white;
+} */
+
+button:hover,
+button:focus {
+    background: hsl(172, 100%, 36%);
+}
+
+button:focus {
+    outline: 1px solid rgb(255, 255, 255);
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.hide-button {
+    display: none;
+}
+
+#animal-info {
+    text-align: center;
+}
+
